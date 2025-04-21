@@ -4,16 +4,18 @@
 <head>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174929475-1"></script>
 	<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-    gtag('config', 'UA-174929475-1');
+		gtag('config', 'UA-174929475-1');
 	</script>
 	<title>Morris Fan Research</title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
-	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
+		type="text/css" />
+	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" media="screen"
+		rel="stylesheet" type="text/css" />
 	<link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/widgets.css" media="screen" rel="stylesheet" type="text/css" />
@@ -34,13 +36,13 @@
 		}
 
 		.row {
-      display: flex;
-	  }
+			display: flex;
+		}
 
-    .column {
-      flex: 50%;
-      padding: 10px;
-    }
+		.column {
+			flex: 50%;
+			padding: 10px;
+		}
 	</style>
 </head>
 
@@ -50,27 +52,43 @@
 		<div class="content">
 			<div class="content-table flex-column">
 				<div class="flex-item flex-column">
-					<h2 class="add-top-margin">Continuous-Time Delta-Sigma ADC</h2>
+					<h2 class="add-top-margin">Design of 48V-12V Hybrid Dickson Switched-Capacitor Converter</h2>
 					<a class="anchor" id="leed"></a>
 					<hr>
 					<p class="text">
-						<li> December 2024 - Present | La Jolla, CA </li>
-						<li> Graduate Student Researcher under Prof. <a href="https://jacobsschool.ucsd.edu/node/3383">Prasad Gudem</a> at <a href="https://rfic.ucsd.edu/">Gudem's Research Group</a>. </li>
-						<li> Start from 1st and 2nd order Discrete-Time DSM first, then touch down on continuous time ADCs with multiple-bit DACs.</li>
+						<li> November 2024 - March 2025 | Berkeley, CA, USA </li>
+						<li> Graduate Student Researcher under Prof. <a
+								href="https://www2.eecs.berkeley.edu/Faculty/Homepages/pilawa.html">Robert
+								Pilawa-Podgurski</a> at <a href="https://pilawa-group.berkeley.edu/">Pilawa Research
+								Group</a>. </li>
+						<li> Conducted comprehensive simulations in LTSpice and PLECS to analyze soft-charging dynamics,
+							split-phase
+							control, topology trade-offs, and design optimizations for hybrid switched-capacitor
+							converters. Designed PCBs using Altium Designer, focusing on component optimization,
+							commutation loop minimization, and
+							modular testability for testing flexible-timing split-phase control.</li>
 					</p>
 				</div>
 				<div class="flex-item flex-column">
-					<h2 class="add-top-margin">Berkeley Analog Generator (BAG3) Design </h2>
+					<h2 class="add-top-margin">A New Y-function MOSFET Mobility Extraction Method at Cryogenic
+						Temperatures </h2>
 					<a class="anchor" id="leed"></a>
 					<hr>
 					<p class="text">
-						<li> October 2023 - February 2024 | Berkeley, CA </li>
-						<li> Undergraduate Research led by Prof. <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/nikolic.html">Borivoje Nikolic</a> at <a href="https://bwrc.eecs.berkeley.edu/about">BWRC Lab</a>. </li>
-						<li> Working on the BAG3 Generator for Analog Circuit Design Assistance led by Ph.D. student Bob Zhou. Aiming to develop open-source software managed by a select group of hardware design engineering graduate students at Berkeley EECS. Applying my SoC and Sky130 PDK knowledge gained from EECS151 and analog circuit design skills from EE140, I learned designing the layout and schematic generators, measurement managers, and design scripts using Python and C++.</li>
+						<li> October 2023 - June 2024 | Shenzhen, Guangdong, China </li>
+						<li> Undergraduate Research led by Prof. Kai Chen at School of Microelectronics. </li>
+						<li> Study the physical effects of cryogenic temperatures on the changes in channel carrier
+							mobility. Read related paper
+							about different extraction methods of channel mobility. Deriving the equations to extract
+							different parameters including low-field mobility, effective mobility, the first,
+							second, third degeneration coefficients. Using MATLAB to process MOSFET I-V data, perform
+							computational
+							analysis, apply linear fitting, and adjust fitting parameters to ultimately obtain the
+							desired parameters.</li>
 					</p>
 				</div>
-				
-				<div class="flex-item flex-column">
+
+				<!-- <div class="flex-item flex-column">
 					<h2 class="add-top-margin">IoT Sensor Interface Circuit Chip Design [<a href="https://drive.google.com/file/d/17NLQG7H-_F1NuDPZ-2Msv8D6nDGgBev-/view">poster</a>][<a href="https://drive.google.com/file/d/1jX_CMj8tSptRucSNimxrsANqsqNadJ9q/view">report</a>][<a href="https://drive.google.com/file/d/1oT3idq7A0_Zftb1KVeJhEea8zRQDzIfe/view">slides</a>]</h2>
 					<a class="anchor" id="swarm"></a>
 					<hr>
@@ -91,7 +109,7 @@
 						<li> Undergraduate Research led by Prof. <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/nikolic.html">Borivoje Nikolic</a> at <a href="https://bwrc.eecs.berkeley.edu/about">BWRC Lab</a>. </li>
 						<li> Working on the Dual Port SRAM22 PCB Layout Design led by Ph.D. student Rahul Kumar of the BWRC Lab with SRAM22 chip verifications. I applied my past project experience in PCB layout and finished the layout. Gained experience in PartSync, BomBuild, and Solidworks, making the layout work more comprehensive and meticulously. </li>
 					</p>
-				</div>
+				</div> -->
 				<br> <br> <br>
 			</div>
 		</div>
@@ -99,4 +117,3 @@
 </body>
 
 </html>
-
