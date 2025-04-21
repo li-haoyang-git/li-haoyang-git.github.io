@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174929475-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-174929475-1');
+    </script>
+    <title>Morris Fan</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <style>
+        .menu-index {
+            color: rgba(255, 255, 255, 1) !important;
+            opacity: 1 !important;
+            font-weight: 700 !important;
+        }
+
+        ul {
+            padding: 0;
+            text-indent: 20px;
+        }
+
+        .transparent-margin-table {
+            margin: auto;
+            border-collapse: separate;
+            border-spacing: 0px;
+            border: none; /* Ensure table itself has no border */
+        }
+
+        .transparent-margin-table th, 
+        .transparent-margin-table td {
+            border: 1px solid transparent; /* Make borders transparent */
+        }
+
+        .contact-info {
+            font-size: 14pt;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #0e3dcc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #08899e;
+            text-decoration: underline;
+        }
+
+        .intro-text {
+            font-size: 14pt;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
+        .header-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+        #clustrmaps-container {
+            width: 150px; /* adjust as needed */
+            height: 150px;
+            overflow: hidden;
+            position: fixed;
+            bottom: 10px;
+            right: 10px; /* places it in the bottom-right corner */
+            z-index: 9999;
+            transform: scale(0.6); /* scales the globe down */
+            transform-origin: bottom right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container"></div>
+    <div class="content-container">
+        <div class="content">
+            <div class="content-table flex-column">
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <img class="image" id="me" src="img/morris.jpg">
+                    </div>
+                    <div class="flex-item flex-column">
+                        <div class="header-flex">
+                            <h2>CHIH-CHIEH (MORRIS) FAN, 范智傑</h2>
+                            <div class="social-icons">
+                                <a href="https://github.com/thisismorris" target="_blank">
+                                    <img src="main_pic/github_logo.png" alt="GitHub">
+                                </a>
+                                <a href="https://www.youtube.com/@morrisfan5798" target="_blank">
+                                    <img src="main_pic/YT_logo.png" alt="YouTube">
+                                </a>
+                                <a href="https://www.linkedin.com/in/morrisfan/" target="_blank">
+                                    <img src="main_pic/LinkedIn_icon.svg.png" alt="LinkedIn">
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                        <table class="container transparent-margin-table" style="max-width:1000px;width:100%;">
+                            <tbody>
+                                <tr>
+                                    <th width="24.5%" valign="top" align="center">
+                                        <img src="main_pic/UCSD_Seal.svg.png" alt="sym" width="60%">
+                                        <p style="line-height:1.3; font-size:10pt">UC San Diego<br>M.S. ECE<br>Sep. 2024 - Mar. 2026</p>
+                                    </th>
+                                    <th width="24.5%" valign="top" align="center">
+                                        <img src="main_pic/UCB_Seal.png" alt="sym" width="60%">
+                                        <p style="line-height:1.3; font-size:10pt">UC Berkeley<br>Exchange in EECS<br>Aug. 2023 - May. 2024</p>
+                                    </th>
+                                    <th width="24.5%" valign="top" align="center">
+                                        <img src="main_pic/NTHU_Seal.svg" alt="sym" width="60%">
+                                        <p style="line-height:1.3; font-size:10pt">National Tsing Hua University<br>B.S. EE<br>Sep. 2021 - Jun. 2024</p>
+                                    </th>
+                                    <th width="24.5%" valign="top" align="center">
+                                        <img src="main_pic/NTUST_Seal.png" alt="sym" width="60%">
+                                        <p style="line-height:1.3; font-size:10pt">National Taiwan University of Science and Technology<br>B.S. ECE (Transfer Out)<br>Sep. 2020 - Jun. 2021</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="contact-info">
+                            <b>m5fan (at) ucsd.edu</b><br>
+                            <a rel="" href="https://drive.google.com/file/d/1VvRRA0J8USd-2l6u6i7LzynRpjWkQ6IK/view?usp=sharing" target="_blank">Resume</a>
+                        </p>    
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <p class="intro-text">
+                            I'm Morris, an M.S. ECE student at UCSD specializing in Electronic Circuits & Systems. I studied my Senior year as an exchange student at UC Berkeley EECS.<br><br>
+                            I will be joining Qualcomm PMIC as an Analog Design Intern for summer 2025 in San Diego. <br><br>
+                            My research interest lies in Analog/Mixed-Signal/RFIC Design. I am also passionate about entrepreneurship and enjoy exploring marketing strategy. I received the Honorable Mention Award in HUM120 2024 Shark Tank at UC Berkeley Haas. If you share similar interests or just want to learn more about my journey, please feel free to explore my website and connect with me on LinkedIn!<br><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <b><center> "I cherish every single day and enjoy every moment in my life." </center></b><br>
+					    <img src="img/GRFO_FA24.jpg" alt="image" width="100%" height="auto" >
+                        <h2 class="add-top-margin">More About Me</h2>
+                        <p>I like to travel with my wife <a href="https://medium.com/@baianna2012">Anna</a>, who studies MN/RN @UW-Milwaukee ε٩(๑> ₃ <)۶з</p>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div id="clustrmaps-container">
+    <script 
+      type="text/javascript" 
+      id="clstr_globe" 
+      src="//clustrmaps.com/globe.js?d=YX_vPVD1Db-PPxg6Ggatl62V5XFVAPkPHia3OKg77lk">
+    </script>
+  </div>
+</html>
