@@ -10,7 +10,7 @@
 
     gtag('config', 'UA-174929475-1');
   </script>
-  <title>Morris Fan Coursework</title>
+  <title>Neelesh R. Coursework</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
     type="text/css" />
@@ -41,6 +41,48 @@
   <div class="menu-container"></div>
   <div class="content-container">
     <div class="content">
+      <!-- <div class="content-table flex-column">
+        <h2>Recent Classes (Spring 2021)</h2>
+        <a class="anchor" id="currentclasses"></a>
+        <hr>
+        <div class="row">
+          <div class="classColumn classLeft">
+            <p class="text">
+              <a href="https://www2.eecs.berkeley.edu/Courses/EE123/" target="_blank">EE 123: Digital Signal Processing</a>
+              <ul>
+                <li> Fourier/Z transforms </li>
+                <li> DFT, FFT </li>
+                <li> Flow Graphs, Realizations, Chirp-Z Algorithms </li>
+                <li> Hilbert Transform Relations, Quantization Effects </li>
+                <li> Windowing, Frequency Sampling </li>
+                <li> 2-D Filter Design </li>
+              </ul>
+            </p>
+          </div>
+          <div class="classColumn classMiddle">
+            <p class="text">
+              <a href="https://www2.eecs.berkeley.edu/Courses/EE140/" target="_blank">EE 142: ICs For Communication</a>
+              <ul>
+                <li>Wireless Communication ICs</li>
+                <li>Amplifier Noise and Distortion</li>
+                <li>Radio Receiver, Power Amplifier Design</li>
+                <li>Mixers, Oscillators, PLL, (De)Modulators</li>
+              </ul>
+            </p>
+          </div>
+          <div class="classColumn classRight">
+            <p class="text">
+              <a href="https://www2.eecs.berkeley.edu/Courses/EE117/" target="_blank">EE 117: EM Fields and Waves</a>
+              <ul>
+                <li>Maxwell's Equations</li>
+                <li>Transmission Lines, Waves</li>
+                <li>Guided Waves, Microwave Networks</li>
+                <li>Antennas, WiFi</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div> -->
       <div class="content-table flex-column">
         <h2>Classes By Category</h2>
         <a class="anchor" id="categorizedclasses"></a>
@@ -51,54 +93,47 @@
         <div id="classButtons">
           <button id="all" class="classBtn active" onclick="displayFiltered()"> All Classes</button>
           <button id="tech" class="classBtn" onclick="displayFiltered()"> Technical </button>
-          <button id="ana" class="classBtn" onclick="displayFiltered()"> Analog </button>
-          <button id="dig" class="classBtn" onclick="displayFiltered()"> Digital </button>
+          <button id="gr" class="classBtn" onclick="displayFiltered()"> Graded </button>
+          <button id="ee" class="classBtn" onclick="displayFiltered()"> EE </button>
           <button id="cs" class="classBtn" onclick="displayFiltered()"> CS </button>
-          <button id="sld" class="classBtn" onclick="displayFiltered()"> Solid-State </button>
-          <button id="mech" class="classBtn" onclick="displayFiltered()"> Mechanics </button>
-          <button id="math" class="classBtn" onclick="displayFiltered()"> Math </button>
-          <button id="phy" class="classBtn" onclick="displayFiltered()"> Physics </button>
+          <button id="ud" class="classBtn" onclick="displayFiltered()"> Upper Div </button>
         </div>
         <div class="container">
-          <div class="classFiltering all tech math">EE 122</div>
-          <div class="classFiltering all tech">HUM 120</div>
-          <div class="classFiltering all tech dig">EECS 151</div>
-          <div class="classFiltering all tech dig">EECS 151 LA</div>
-          <div class="classFiltering all tech ana">EE 140</div>
-          <div class="classFiltering all tech cs">CS61C</div>
-          <div class="classFiltering all tech ana">EC ENGR 3</div>
-          <div class="classFiltering all tech math">EE 202000</div>
-          <div class="classFiltering all tech ana">LSC 110200</div>
-          <div class="classFiltering all tech ana">EE 3225</div>
-          <div class="classFiltering all tech ana">EE 3230</div>
-          <div class="classFiltering all tech ana">EE 351000</div>
-          <div class="classFiltering all tech ana">EE 224501</div>
-          <div class="classFiltering all tech ana">EE 2255</div>
-          <div class="classFiltering all tech ana">EE 390000</div>
-          <div class="classFiltering all tech ana">EE 391000</div>
-          <div class="classFiltering all tech ana">ECE 164</div>
-          <div class="classFiltering all tech ana">ECE 166</div>
-          <div class="classFiltering all tech ana">ECE 203</div>
-          <div class="classFiltering all tech ana">ECE 264A</div>
-          <div class="classFiltering all tech ana">ECE 265A</div>
-          <div class="classFiltering all tech ana">ECE 283</div>
-          <div class="classFiltering all tech ana sld">EE 3350</div>
-          <div class="classFiltering all tech ana sld">EE 432000</div>
-          <div class="classFiltering all tech ana mech">EE 384000</div>
-          <div class="classFiltering all tech math">EECS203001</div>
-          <div class="classFiltering all tech math">EE 224501</div>
-          <div class="classFiltering all tech math">EE 206000</div>
-          <div class="classFiltering all tech math">EE 306001</div>
-          <div class="classFiltering all tech math">EE 206000</div>
-          <div class="classFiltering all tech dig">ET3305303</div>
-          <div class="classFiltering all tech dig">ET3806303</div>
-          <div class="classFiltering all tech cs">ET3405303</div>
-          <div class="classFiltering all tech math">ET161A002</div>
-          <div class="classFiltering all tech math">ET161B002</div>
-          <div class="classFiltering all tech phy">EC163A006</div>
-          <div class="classFiltering all tech phy">EC163B006</div>
-          <div class="classFiltering all tech phy">ET173A002</div>
-          <div class="classFiltering all tech phy">ET173B002</div>
+          <div class="classFiltering all gr tech ee ud">EE 194</div>
+          <div class="classFiltering all tech cs ud">CS 194</div>
+          <div class="classFiltering all gr tech ee ud">EE 143</div>
+          <div class="classFiltering all gr tech ee ud">EE 147</div>
+          <div class="classFiltering all gr tech ud">Physics 137A</div>
+          <div class="classFiltering all tech ee ud">EE C128</div>
+          <div class="classFiltering all gr tech ee ud">EE 240B</div>
+          <div class="classFiltering all gr tech ee cs ud">EECS 126</div>
+          <div class="classFiltering all gr tech ee cs ud">EECS 151</div>
+          <div class="classFiltering all gr tech ee ud">EE 140</div>
+          <div class="classFiltering all gr tech ee ud">EE 142</div>
+          <div class="classFiltering all gr tech ee cs ud">EECS 127</div>
+          <div class="classFiltering all gr tech ee ud">EE 123</div>
+          <div class="classFiltering all gr tech ee ud">EE 105</div>
+          <div class="classFiltering all gr tech ee ud">EE 130</div>
+          <div class="classFiltering all gr tech ee ud">EE 118</div>
+          <div class="classFiltering all gr tech ee ud">EE 117</div>
+          <div class="classFiltering all gr tech ee ud">EE 120</div>
+          <div class="classFiltering all gr tech ee">EE 16B</div>
+          <div class="classFiltering all gr tech ee">EE 16A</div>
+          <div class="classFiltering all gr tech cs ud">CS 162</div>
+          <div class="classFiltering all gr tech cs">CS 61A</div>
+          <div class="classFiltering all gr tech cs">CS 61B</div>
+          <div class="classFiltering all gr tech cs">CS 61C</div>
+          <div class="classFiltering all gr tech cs">CS 70</div>
+          <div class="classFiltering all gr tech">Math 53</div>
+          <div class="classFiltering all gr tech">Physics 7B</div>
+          <div class="classFiltering all ud">His. 122AC</div>
+          <div class="classFiltering all gr">ColWrit R4B</div>
+          <div class="classFiltering all">Vis Sci 24</div>
+          <div class="classFiltering all">MCB 90D</div>
+          <div class="classFiltering all">Psych 2</div>
+          <div class="classFiltering all tech cs">CS 9C</div>
+          <div class="classFiltering all cs">CS 195</div>
+          <div class="classFiltering all">EE 375</div>
         </div>
       </div>
       <div class="content-table flex-column">
@@ -106,351 +141,110 @@
         <a class="anchor" id="fullcourses"></a>
         <hr>
         <p class="text add-top-margin add-bottom-margin"> Here's a full listing of all my coursework (including
-          associated grades, professors, and semesters.) </p>
+          associated grades, professors, and semester.) </p>
         <table class="custom-table" style="width:100%;">
           <thead style="background-color: rgba(224, 171, 193, 0.3)">
             <tr class="text-center">
-              <th class="col-md-2 center">UC San Diego Course Code</th>
+              <th class="col-md-2 center">Berkeley Abbreviation</th>
               <th class="col-md-5 center">Topics</th>
               <th class="col-md-1 center">Grade</th>
               <th class="col-md-2 center">Professor</th>
             </tr>
           </thead>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Spring 2025</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">EE 240B</a>
-              </td>
-              <td class="text-left col-md-4">Advanced Analog Integrated Circuits</td>
-              <td class="text-center">In Progress</td>
-              <td class="text-center">Osama Shana'a</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 265A</a>
-              </td>
-              <td class="text-left col-md-4">Communication Circuit Design I</td>
-              <td class="text-center">In Progress</td>
-              <td class="text-center">Prasad S. Gudem</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 283</a>
-              </td>
-              <td class="text-left col-md-4">High-Speed Wireline Communication</td>
-              <td class="text-center">In Progress</td>
-              <td class="text-center">Tzu-Chien Hsueh</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Fall 2024</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 164</a>
-              </td>
-              <td class="text-left col-md-4">Analog Integrated Circuit Design</td>
-              <td class="text-center">A</td>
-              <td class="text-center">Drew A. Hall</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 166</a>
-              </td>
-              <td class="text-left col-md-4">Microwave Systems and Circuits</td>
-              <td class="text-center">A</td>
-              <td class="text-center">Gabriel M. Rebeiz</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 203</a>
-              </td>
-              <td class="text-left col-md-4">Biomedical Integrated Circuit & System</td>
-              <td class="text-center">A-</td>
-              <td class="text-center">Patrick P. Mercier</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.ucsd.edu/courses/ECE.html" target="_blank">ECE 283</a>
-              </td>
-              <td class="text-left col-md-4">Power Management Integrated Circuits (PMIC) </td>
-              <td class="text-center">Audit</td>
-              <td class="text-center">Hanh-Phuc Le</td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="custom-table" style="width:100%;">
-          <thead style="background-color: rgba(224, 171, 193, 0.3)">
-            <tr class="text-center">
-              <th class="col-md-2 center">UC Berkeley Course Code</th>
-              <th class="col-md-5 center">Topics</th>
-              <th class="col-md-1 center">Grade</th>
-              <th class="col-md-2 center">Professor</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Spring 2025</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE122/" target="_blank">EE
-                  240B</a></td>
-              <td class="text-left col-md-4">Advanced Analog Integrated Circuits</td>
-              <td class="text-center">In Progress</td>
-              <td class="text-center">Osama Shana'a</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://classes.berkeley.edu/content/2024-spring-hum-120-001-lec-001"
-                  target="_blank">EE 113B</a></td>
-              <td class="text-left col-md-4">Power Electronics Design</td>
-              <td class="text-center">In Progress</td>
-              <td class="text-center">Jessica Boles</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Fall 2023</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS151/" target="_blank">EECS
-                  151</a></td>
-              <td class="text-left col-md-4">Introduction to Digital Design Integrated Circuits</td>
-              <td class="text-center">B+</td>
-              <td class="text-center">Bora Nikolic</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE140/" target="_blank">EE 140</a>
-              </td>
-              <td class="text-left col-md-4">Linear Integrated Circuits</td>
-              <td class="text-center">A-</td>
-              <td class="text-center">Rikky Muller</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">COMPSCI
-                  61C</a></td>
-              <td class="text-left col-md-4">Great Ideas of Computer Architecture (Machine Structures)</td>
-              <td class="text-center">P</td>
-              <td class="text-center">Dan Garcia, Justin Yokota</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=u2dlcm84citk46t4vh8vpujl35&c_key=11210EE%20%20391000"
-                  target="_blank">EE 391000</a></td>
-              <td class="text-left col-md-4">Special Topic on Implementation (II) (NTHU)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Kea-Tiong (Samuel) Tang</td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="custom-table" style="width:100%;">
-          <thead style="background-color: rgba(224, 171, 193, 0.3)">
-            <tr class="text-center">
-              <th class="col-md-2 center">NTHU Course Code</th>
-              <th class="col-md-5 center">Topics</th>
-              <th class="col-md-1 center">Grade</th>
-              <th class="col-md-2 center">Professor</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Spring 2023</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20202000"
-                  target="_blank">EE 202000</a></td>
-              <td class="text-left col-md-4">Partial Differential Equations and Complex Variables</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">YANG, YA-TANG</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20306001"
-                  target="_blank">EE 306001</a></td>
-              <td class="text-left col-md-4">Probability</td>
-              <td class="text-center">B+</td>
-              <td class="text-center">LU, CHUNG-CHIN</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20206000"
-                  target="_blank">EE 206000</a></td>
-              <td class="text-left col-md-4">Discrete Mathematics</td>
-              <td class="text-center">A</td>
-              <td class="text-center">Ueng, Yeong-Luh</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20384000"
-                  target="_blank">EE 384000</a></td>
-              <td class="text-left col-md-4">Electrical Machinery Laboratory</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">CHANG, YUAN-CHIH</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20432000"
-                  target="_blank">EE 432000</a></td>
-              <td class="text-left col-md-4">Solid-State Electronics Laboratory-Semiconductor Processing</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">CHIU, PO-WEN</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20432000"
-                  target="_blank">LSC 110200</a></td>
-              <td class="text-left col-md-4">Life Science II (Biology)</td>
-              <td class="text-center">A-</td>
-              <td class="text-center">Chiao, Chuan-Chin</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=44f3tck5dbbtfag3du13obaup5&c_key=11120EE%20%20390000"
-                  target="_blank">EE 390000</a></td>
-              <td class="text-left col-md-4">Special Topic on Implementation (I)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Kea-Tiong (Samuel) Tang</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="background-color: rgba(119, 153, 212, 0.3)">
-              <th colspan="4" class="text-center">Fall 2022</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=et1m1n5ub28quqlkr99vicau41&c_key=11110EE%20%20323500"
-                  target="_blank">EE 323500</a></td>
-              <td class="text-left col-md-4">Analog Integrated Circuits Analysis and Design I</td>
-              <td class="text-center">A</td>
-              <td class="text-center">TANG KEA TIONG</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=et1m1n5ub28quqlkr99vicau41&c_key=11110EE%20%20323000"
-                  target="_blank">EE 323000</a></td>
-              <td class="text-left col-md-4">Introduction to Integrated Circuit Design</td>
-              <td class="text-center">A-</td>
-              <td class="text-center">CHANG, MENG-FAN</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=et1m1n5ub28quqlkr99vicau41&c_key=11110EE%20%20224501"
-                  target="_blank">EE 224501</a></td>
-              <td class="text-left col-md-4">Microelectronics Labs.</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">CHEN, HSIN</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=et1m1n5ub28quqlkr99vicau41&c_key=11110EE%20%20335000"
-                  target="_blank">EE 335000</a></td>
-              <td class="text-left col-md-4">Introduction to Solid-State Electronic Devices</td>
-              <td class="text-center">A-</td>
-              <td class="text-center">KING, YA-CHIN</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=et1m1n5ub28quqlkr99vicau41&c_key=11110EE%20%20351000"
-                  target="_blank">EE 351000</a></td>
-              <td class="text-left col-md-4">Feedback Control Systems</td>
-              <td class="text-center">A</td>
-              <td class="text-center">CHIU, WEI-YU</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr style="background-color: rgba(224, 171, 193, 0.3)">
-              <th colspan="4" class="text-center">Summer 2022 (UCLA)</th>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a href="https://catalog.registrar.ucla.edu/course/2023/ecengr3"
-                  target="_blank">EC ENGR 3</a></td>
-              <td class="text-left col-md-4">Introduction to Electrical Engineering</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Mike Briggs</td>
-            </tr>
-          </tbody>
           <tbody>
             <tr style="background-color: rgba(119, 153, 212, 0.3)">
               <th colspan="4" class="text-center">Spring 2022</th>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=3sak7io6s2dlo4nn13ajb5huk1&c_key=11020EE%20%20225501"
-                  target="_blank">EE 225501</a></td>
-              <td class="text-left col-md-4">Electronics</td>
-              <td class="text-center">A</td>
-              <td class="text-center">KING, YA-CHIN</td>
+              <td>EE 194</td>
+              <td class="text-left col-md-4">Ideation, Design, Schematic Capture, Layout (FinFET), Verification of
+                custom radio components</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Kris Pister, Ali Niknejad, Bora Nikolic</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=fjspqb0j05mkg4d5i5nb8dhlj7&c_key=11020EECS202001"
-                  target="_blank">EECS202001</a></td>
-              <td class="text-left col-md-4">Signals and Systems</td>
-              <td class="text-center">B+</td>
-              <td class="text-center">HUANG, CHEN-BIN</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE240B/" target="_blank">EE
+                  240B</a></td>
+              <td class="text-left col-md-4">Op-amps, Wide-Band Amplifiers, Gain-Bandwidth, Noise Design, Precision
+                Passives, Analog Switches, Comparators, References, ADCs.</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Ali Niknejad</td>
             </tr>
-          </tbody>
-          <tbody>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS126/" target="_blank">EECS
+                  126</a></td>
+              <td class="text-left col-md-4">Probability, Random Processes, Random Vector, Hilbert Spaces, Law of Large
+                Numbers, Markov Chains, Central Limit Theorem</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Kannan Ramchandran</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EEC128/" target="_blank">EE
+                  C128</a></td>
+              <td class="text-left col-md-4">Feedback in basic control systems and design/tuning of hardware control
+                systems</td>
+              <td class="text-center">P</td>
+              <td class="text-center">Somayeh Soujoudi</td>
+            </tr>
             <tr style="background-color: rgba(119, 153, 212, 0.3)">
               <th colspan="4" class="text-center">Fall 2021</th>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=lminis8ukbpjuhcgriihrj70v0&c_key=11010EECS203001"
-                  target="_blank">EECS203001</a></td>
-              <td class="text-left col-md-4">Ordinary Differential Equations</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">CHU, TA-SHUN</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE143/" target="_blank">EE 147</a>
+              </td>
+              <td class="text-left col-md-4">MEMS, Sensor Design and Transduction Techniques, Thermal Design
+                Considerations, Process Technologies (thin-film)</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Muhammad Hussain</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center"><a
-                  href="https://www.ccxp.nthu.edu.tw/ccxp/INQUIRE/JH/common/Syllabus/1.php?ACIXSTORE=lminis8ukbpjuhcgriihrj70v0&c_key=11010EECS205004"
-                  target="_blank">EECS205004</a></td>
-              <td class="text-left col-md-4">Linear Algebra</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">LEE, RAY-KUANG</td>
+              <td>Physics 137A</td>
+              <td class="text-left col-md-4">Wave Function, Time-Independent Schroedinger Equation, Formalism, 3D QM,
+                Spin, Angular Momenta, Hydrogen</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Michael Crommie</td>
             </tr>
-          </tbody>
-        </table>
-        <table class="custom-table" style="width:100%;">
-          <thead style="background-color: rgba(224, 171, 193, 0.3)">
-            <tr class="text-center">
-              <th class="col-md-2 center">NTUST Course Code</th>
-              <th class="col-md-5 center">Topics</th>
-              <th class="col-md-1 center">Grade</th>
-              <th class="col-md-2 center">Professor</th>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE143/" target="_blank">EE 143</a>
+              </td>
+              <td class="text-left col-md-4">IC fabrication, Oxidation, Epitaxy, Lithography, Etching, Contacts, Process
+                Integration</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Muhammad Hussain</td>
             </tr>
-          </thead>
-          <tbody>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS194/" target="_blank">CS 194</a>
+              </td>
+              <td class="text-left col-md-4">Performance programming (SIMD, pre-fetching, memory hierarchy), Performance
+                Analysis and Modeling, Shared Memory Parallelism, GPU Programming</td>
+              <td class="text-center">P</td>
+              <td class="text-center">Kathy Yelick</td>
+            </tr>
             <tr style="background-color: rgba(119, 153, 212, 0.3)">
               <th colspan="4" class="text-center">Spring 2021</th>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET3305303</td>
-              <td class="text-left col-md-4">Digital Logic Design</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE142/" target="_blank">EE 142</a>
+              </td>
+              <td class="text-left col-md-4">RF Design, ICs for Communications, Wireless, High Frequency Amps,
+                Distortion, Noise, Power Amplifiers, Mixers, Oscillators</td>
               <td class="text-center">A</td>
-              <td class="text-center">Chang Hong Lin</td>
+              <td class="text-center">Ali Niknejad</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET3305303</td>
-              <td class="text-left col-md-4">Digital Logic Design Laboratory</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE117/" target="_blank">EE 117</a>
+              </td>
+              <td class="text-left">Transmission Lines, Maxwell's Equations, Reflection/Transmission, Antennas,
+                Radiation, Diffraction, Wireless Systems</td>
               <td class="text-center">A</td>
-              <td class="text-center">Chang Hong Lin</td>
+              <td class="text-center">Boubacar Kanté</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET161B002</td>
-              <td class="text-left col-md-4">Calculus (II)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Jenq-Shiou Leu</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">EC163B006</td>
-              <td class="text-left col-md-4">General Physics B (II)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Chih-Chien Lee</td>
-            </tr>
-            <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET173B002</td>
-              <td class="text-left col-md-4">General Physics Laboratory (II)</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS123/" target="_blank">EE
+                  123</a></td>
+              <td class="text-left">Signal Processing, Sampling, Filter Design, Filter Optimization, DFT, FFT, DCT</td>
               <td class="text-center">A</td>
-              <td class="text-center">Hsiang Wang</td>
+              <td class="text-center">Kannan Ramchandran</td>
             </tr>
           </tbody>
           <tbody>
@@ -458,34 +252,203 @@
               <th colspan="4" class="text-center">Fall 2020</th>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET3405303</td>
-              <td class="text-left col-md-4">Introduction to Programming</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Yung-Yao Chen</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS151/" target="_blank">EECS
+                  151: Lecture</a></td>
+              <td class="text-left col-md-4">Verilog, System Design, SRAM, DRAM, Caches, Digital Logic, FSMs, FIFO,
+                Computer Architecture</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Sophia Shao</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET161A002</td>
-              <td class="text-left col-md-4">Calculus (I)</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS151LB/" target="_blank">EECS
+                  151: FPGA Lab</a></td>
+              <td class="text-left col-md-4">Verilog, FPGA, <a href="projects#eecs151-project" target="_blank">RISC-V
+                  Processor Design</a>, Memory-Mapped I/O Peripherals, Digital Synthesis, Simulation Tools, Hardware
+                Optimization</td>
               <td class="text-center">A+</td>
-              <td class="text-center">Jenq-Shiou Leu</td>
+              <td class="text-center">Sophia Shao</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">EC163A006</td>
-              <td class="text-left col-md-4">General Physics B (I)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Chih-Chien Lee</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE140/" target="_blank">EE 140</a>
+              </td>
+              <td class="text-left">Multi-stage Amplifier Design, Feedback Amplifiers, Op-amp analysis/design, 2-port
+                analysis, frequency-response, ADC</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Rikky Muller</td>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">ET173A002</td>
-              <td class="text-left col-md-4">General Physics Laboratory (I)</td>
-              <td class="text-center">A+</td>
-              <td class="text-center">Hsiang Wang</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EECS127/" target="_blank">EECS
+                  127</a></td>
+              <td class="text-left">Convex Optimization (LP, QP, QCQP, GP, SOCP, SDP), Duality, Linear Algebra (SVD,
+                PCA, Matrix Properties, Least Squares Variants)</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Venkat Anantharam</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="background-color: rgba(119, 153, 212, 0.3)">
+              <th colspan="4" class="text-center">Spring 2020</th>
             </tr>
             <tr style="background-color: rgba(215, 189, 240, 0.05)">
-              <td class="text-center">#######</td>
-              <td class="text-left col-md-4">This row is intentionally left blank, Thanks. ლ（╹ε╹ლ) ლ（╹ε╹ლ)</td>
-              <td class="text-center">##</td>
-              <td class="text-center">#######</td>
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE105/" target="_blank">EE 105</a>
+              </td>
+              <td class="text-left col-md-4">Analog Circuits, BJTs, MOSFETs, Transistor Design/Function, Circuit Design,
+                Circuit Frequency Response, Nonideal Op-Amps</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Ali Niknejad</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE130/" target="_blank">EE 130</a>
+              </td>
+              <td class="text-left">BJT/MOSFET Physics, Device Design and Performance Optimization, Semiconductor
+                Physics, Transistor Fabrication, Integrated Circuit Manufacturing</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Sayeef Salahuddin</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS162/" target="_blank">CS 162</a>
+              </td>
+              <td class="text-left">Operating Systems, File Systems, Computer Architecture, Security, Systems
+                Programming, Networks, Distributed Systems</td>
+              <td class="text-center">A</td>
+              <td class="text-center">John Kubiatowicz</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">ColWrit R4B</a></td>
+              <td class="text-left">Writing and Communication Skills, Multimedia Presentations, Textual Analysis and
+                Synthesis</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">David Wiese</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="background-color: rgba(119, 153, 212, 0.3)">
+              <th colspan="4" class="text-center">Fall 2019</th>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">CS 61C</a>
+              </td>
+              <td class="text-left">Machine Structures, Processors, Physical/Virtual Memory, I/O, Logic Design, Design
+                Tradeoffs</td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Dan Garcia</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE118/" target="_blank">EE 118</a>
+              </td>
+              <td class="text-left">Optical Engineering, Geometrical Optics, Aberrations, Apertures/Stops/Mirrors,
+                Diffraction, Interference, Optical Devices, Lasers, Fiber Optics </td>
+              <td class="text-center">A+</td>
+              <td class="text-center">Boubacar Kanté</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE120/" target="_blank">EE 120</a>
+              </td>
+              <td class="text-left">Continutous/Discrete Transform Analysis, Transfer Functions, Laplace/Z Transforms,
+                Fourier Series/Transform, Feedback Control Systems, System Stability Analysis</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Murat Arcak</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE375/" target="_blank">EE 375</a>
+              </td>
+              <td class="text-left">Teaching Pedagogy, Effective Teaching Techniques</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">Babak Ayazifar</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="background-color: rgba(119, 153, 212, 0.3)">
+              <th colspan="4" class="text-center">Summer 2019</th>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS70/" target="_blank">CS 70</a>
+              </td>
+              <td class="text-left">Logic, Induction, Probability, Modular Arithmetic, Polynomials, Bayesian Inference
+              </td>
+              <td class="text-center">A</td>
+              <td class="text-center">Dan Garcia</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="background-color: rgba(119, 153, 212, 0.3)">
+              <th colspan="4" class="text-center">Spring 2019</th>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE16B/" target="_blank">EE 16B</a>
+              </td>
+              <td class="text-left">Circuit Design/Analysis, Signals and Systems, Frequency Analysis</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Anant Sahai</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS61B/" target="_blank">CS 61B</a>
+              </td>
+              <td class="text-left">Data Structures (lists, queues, trees, hash tables, etc.), Algorithms, Software
+                Engineering</td>
+              <td class="text-center">A-</td>
+              <td class="text-center">Joshua Hug</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">Physics 7B</a></td>
+              <td class="text-left">Thermodynamics, Electricity, Magnetism</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Nathan Lowhorn</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">CS 9C</a></td>
+              <td class="text-left">Self-Guided Intro. to C Programming</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">N/A</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">CS 195</a></td>
+              <td class="text-left">Social Ethics in Computing</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">John DeNero</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">History 122AC</a></td>
+              <td class="text-left">Antebellum (Pre-Civil War Era) US History</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">Sarah Gold McBride</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr style="background-color: rgba(119, 153, 212, 0.3)">
+              <th colspan="4" class="text-center">Fall 2018</th>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/EE16A/" target="_blank">EE 16A</a>
+              </td>
+              <td class="text-left">Intro. Circuit Design/Analysis, Linear Algebra, Intro. to Machine Learning</td>
+              <td class="text-center">A</td>
+              <td class="text-center">Gireeja Ranade</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center"><a href="https://www2.eecs.berkeley.edu/Courses/CS61A/" target="_blank">CS 61A</a>
+              </td>
+              <td class="text-left">Python Programming, Software Unit Testing</td>
+              <td class="text-center">A-</td>
+              <td class="text-center">John DeNero</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">Math 53</td>
+              <td class="text-left">Multivariable Calculus</td>
+              <td class="text-center">A</td>
+              <td class="text-center">James Sethian</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">Vis Sci 24</a></td>
+              <td class="text-left">Seminar on Structure, Anatomy, and Physics of the Eye</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">Richard Van Slutyers</td>
+            </tr>
+            <tr style="background-color: rgba(215, 189, 240, 0.05)">
+              <td class="text-center">MCB 90D</a></td>
+              <td class="text-left">Seminar on Immunology</td>
+              <td class="text-center">Pass</td>
+              <td class="text-center">Russell Vance</td>
             </tr>
           </tbody>
         </table>
@@ -540,7 +503,7 @@
       w3RemoveClass(x[i], "show");
     }
 
-    let categories = ['all', 'tech', 'ana', 'dig', 'cs', 'sld', 'mech', 'math', 'phy'];
+    let categories = ['all', 'gr', 'tech', 'ee', 'cs', 'ud'];
     var activeCategories = []
 
     categories.forEach(function (item, index, array) {
