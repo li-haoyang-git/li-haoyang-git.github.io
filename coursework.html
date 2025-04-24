@@ -10,7 +10,7 @@
 
     gtag('config', 'UA-174929475-1');
   </script>
-  <title>Neelesh R. Coursework</title>
+  <title>Coursework</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
     type="text/css" />
@@ -41,48 +41,6 @@
   <div class="menu-container"></div>
   <div class="content-container">
     <div class="content">
-      <!-- <div class="content-table flex-column">
-        <h2>Recent Classes (Spring 2021)</h2>
-        <a class="anchor" id="currentclasses"></a>
-        <hr>
-        <div class="row">
-          <div class="classColumn classLeft">
-            <p class="text">
-              <a href="https://www2.eecs.berkeley.edu/Courses/EE123/" target="_blank">EE 123: Digital Signal Processing</a>
-              <ul>
-                <li> Fourier/Z transforms </li>
-                <li> DFT, FFT </li>
-                <li> Flow Graphs, Realizations, Chirp-Z Algorithms </li>
-                <li> Hilbert Transform Relations, Quantization Effects </li>
-                <li> Windowing, Frequency Sampling </li>
-                <li> 2-D Filter Design </li>
-              </ul>
-            </p>
-          </div>
-          <div class="classColumn classMiddle">
-            <p class="text">
-              <a href="https://www2.eecs.berkeley.edu/Courses/EE140/" target="_blank">EE 142: ICs For Communication</a>
-              <ul>
-                <li>Wireless Communication ICs</li>
-                <li>Amplifier Noise and Distortion</li>
-                <li>Radio Receiver, Power Amplifier Design</li>
-                <li>Mixers, Oscillators, PLL, (De)Modulators</li>
-              </ul>
-            </p>
-          </div>
-          <div class="classColumn classRight">
-            <p class="text">
-              <a href="https://www2.eecs.berkeley.edu/Courses/EE117/" target="_blank">EE 117: EM Fields and Waves</a>
-              <ul>
-                <li>Maxwell's Equations</li>
-                <li>Transmission Lines, Waves</li>
-                <li>Guided Waves, Microwave Networks</li>
-                <li>Antennas, WiFi</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div> -->
       <div class="content-table flex-column">
         <h2>Classes By Category</h2>
         <a class="anchor" id="categorizedclasses"></a>
@@ -91,49 +49,37 @@
           taken (displays classes satisfying <i>all</i> selected criteria). For a complete list, see <a
             href="#fullcourses">below!</a></p>
         <div id="classButtons">
-          <button id="all" class="classBtn active" onclick="displayFiltered()"> All Classes</button>
-          <button id="tech" class="classBtn" onclick="displayFiltered()"> Technical </button>
-          <button id="gr" class="classBtn" onclick="displayFiltered()"> Graded </button>
+          <button id="all" class="classBtn active" onclick="displayFiltered()"> All Classes </button>
+          <button id="ic" class="classBtn" onclick="displayFiltered()"> IC </button>
           <button id="ee" class="classBtn" onclick="displayFiltered()"> EE </button>
           <button id="cs" class="classBtn" onclick="displayFiltered()"> CS </button>
-          <button id="ud" class="classBtn" onclick="displayFiltered()"> Upper Div </button>
+          <button id="ma" class="classBtn" onclick="displayFiltered()"> Math </button>
+          <button id="ph" class="classBtn" onclick="displayFiltered()"> Physics </button>
         </div>
         <div class="container">
-          <div class="classFiltering all gr tech ee ud">EE 194</div>
-          <div class="classFiltering all tech cs ud">CS 194</div>
-          <div class="classFiltering all gr tech ee ud">EE 143</div>
-          <div class="classFiltering all gr tech ee ud">EE 147</div>
-          <div class="classFiltering all gr tech ud">Physics 137A</div>
-          <div class="classFiltering all tech ee ud">EE C128</div>
-          <div class="classFiltering all gr tech ee ud">EE 240B</div>
-          <div class="classFiltering all gr tech ee cs ud">EECS 126</div>
-          <div class="classFiltering all gr tech ee cs ud">EECS 151</div>
-          <div class="classFiltering all gr tech ee ud">EE 140</div>
-          <div class="classFiltering all gr tech ee ud">EE 142</div>
-          <div class="classFiltering all gr tech ee cs ud">EECS 127</div>
-          <div class="classFiltering all gr tech ee ud">EE 123</div>
-          <div class="classFiltering all gr tech ee ud">EE 105</div>
-          <div class="classFiltering all gr tech ee ud">EE 130</div>
-          <div class="classFiltering all gr tech ee ud">EE 118</div>
-          <div class="classFiltering all gr tech ee ud">EE 117</div>
-          <div class="classFiltering all gr tech ee ud">EE 120</div>
-          <div class="classFiltering all gr tech ee">EE 16B</div>
-          <div class="classFiltering all gr tech ee">EE 16A</div>
-          <div class="classFiltering all gr tech cs ud">CS 162</div>
-          <div class="classFiltering all gr tech cs">CS 61A</div>
-          <div class="classFiltering all gr tech cs">CS 61B</div>
-          <div class="classFiltering all gr tech cs">CS 61C</div>
-          <div class="classFiltering all gr tech cs">CS 70</div>
-          <div class="classFiltering all gr tech">Math 53</div>
-          <div class="classFiltering all gr tech">Physics 7B</div>
-          <div class="classFiltering all ud">His. 122AC</div>
-          <div class="classFiltering all gr">ColWrit R4B</div>
-          <div class="classFiltering all">Vis Sci 24</div>
-          <div class="classFiltering all">MCB 90D</div>
-          <div class="classFiltering all">Psych 2</div>
-          <div class="classFiltering all tech cs">CS 9C</div>
-          <div class="classFiltering all cs">CS 195</div>
-          <div class="classFiltering all">EE 375</div>
+          <div class="classFiltering all ic ee">EE 240B</div>
+          <div class="classFiltering all ee">EE 113B</div>
+          <div class="classFiltering all ic ee">EE 140</div>
+          <div class="classFiltering all ee">EE 113</div>
+          <div class="classFiltering all cs">CS 61C</div>
+          <div class="classFiltering all ic ee">SME 201</div>
+          <div class="classFiltering all ee">SME 206</div>
+          <div class="classFiltering all ic ee">SME 318</div>
+          <div class="classFiltering all ic ee">SME 319</div>
+          <div class="classFiltering all ic ee">SME 202</div>
+          <div class="classFiltering all ic ee">SME 203</div>
+          <div class="classFiltering all ic ee">SME 204</div>
+          <div class="classFiltering all ee ph">SME 205</div>
+          <div class="classFiltering all ic ee">SME 5027</div>
+          <div class="classFiltering all">GE 2100</div>
+          <div class="classFiltering all ee">EE 104</div>
+          <div class="classFiltering all ic ee">SME 102</div>
+          <div class="classFiltering all cs">CS 111</div>
+          <div class="classFiltering all ma">MA 127</div>
+          <div class="classFiltering all ph">PHY 106</div>
+          <div class="classFiltering all ma">MA 113</div>
+          <div class="classFiltering all ma">MA 117</div>
+          <div class="classFiltering all ph">PHY 105</div>
         </div>
       </div>
       <div class="content-table flex-column">
@@ -382,7 +328,7 @@
       w3RemoveClass(x[i], "show");
     }
 
-    let categories = ['all', 'gr', 'tech', 'ee', 'cs', 'ud'];
+    let categories = ['all', 'ic', 'ee', 'cs', 'ma', 'ph'];
     var activeCategories = []
 
     categories.forEach(function (item, index, array) {
