@@ -94,13 +94,18 @@
 							display: grid;
 							grid-template-columns: 1fr 1fr;
 							gap: 20px;
-							/* 图片间距，可调整 */
 							justify-items: center;
 							align-items: center;
 							max-width: 1024px;
-							/* 限定最大宽度 */
 							margin: 0 auto;
-							/* 网格整体居中 */
+						}
+
+						.caption {
+							grid-column: span 2;
+							text-align: center;
+							font-weight: bold;
+							margin-top: -10px;
+							margin-bottom: 20px;
 						}
 
 						.image-grid img {
@@ -111,11 +116,15 @@
 					</style>
 
 					<div class="image-grid">
-						<img src="research_pic/top.png" alt="top">
-						<img src="research_pic/top1.png" alt="top1">
-						<img src="research_pic/bottom.png" alt="bottom">
-						<img src="research_pic/bottom1.png" alt="bottom1">
+						<img src="research_pic/top.png" alt="Top view 1">
+						<img src="research_pic/top1.png" alt="Top view 2">
+						<div class="caption">Top view of the PCB</div>
+
+						<img src="research_pic/bottom.png" alt="Bottom view 1">
+						<img src="research_pic/bottom1.png" alt="Bottom view 2">
+						<div class="caption">Bottom view of the PCB</div>
 					</div>
+
 
 				</div>
 				<div class="flex-item flex-column">
