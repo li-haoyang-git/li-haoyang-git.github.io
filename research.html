@@ -88,10 +88,34 @@
 							particular attention to modularity and testability, enabling flexible validation of
 							split-phase and other advanced control techniques.</li>
 					</p>
-					<img class="image center" src="research_pic/top.png"
-						style="width:500px;margin-left:auto;margin-right:auto;">
-					<img class="image center" src="research_pic/bottom.png"
-						style="width:500px;margin-left:auto;margin-right:auto;">
+					<style>
+						.image-grid {
+							display: grid;
+							grid-template-columns: 1fr 1fr;
+							gap: 20px;
+							/* 图片间距，可调整 */
+							justify-items: center;
+							align-items: center;
+							max-width: 1024px;
+							/* 限定最大宽度 */
+							margin: 0 auto;
+							/* 网格整体居中 */
+						}
+
+						.image-grid img {
+							width: 100%;
+							max-width: 500px;
+							height: auto;
+						}
+					</style>
+
+					<div class="image-grid">
+						<img src="research_pic/top.png" alt="top">
+						<img src="research_pic/top1.png" alt="top1">
+						<img src="research_pic/bottom.png" alt="bottom">
+						<img src="research_pic/bottom1.png" alt="bottom1">
+					</div>
+
 				</div>
 				<div class="flex-item flex-column">
 					<h2 class="add-top-margin">A New Y-function MOSFET Mobility Extraction Method at Cryogenic
