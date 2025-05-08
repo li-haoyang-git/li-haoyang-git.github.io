@@ -78,9 +78,9 @@
 					</p>
 				</div>
 				<div class="flex-item flex-column">
-					<h2 class="add-top-margin">Design and test of synchronous buck converter for
-						photovoltaic (PV) maximum power point tracking (MPPT).
-						[<a href="https://drive.google.com/file/d/1aqfLqoZNHPVl4ZFOlewAFkvDZy-aFMfB/view">report</a>]
+					<h2 class="add-top-margin">Design and Test of Synchronous Buck Converter for
+						Photovoltaic (PV) Maximum Power Point Tracking (MPPT).
+						<!-- [<a href="https://drive.google.com/file/d/1aqfLqoZNHPVl4ZFOlewAFkvDZy-aFMfB/view">report</a>] -->
 					</h2>
 					<a class="anchor" id="leed"></a>
 					<hr>
@@ -89,13 +89,37 @@
 						<li> EE 113B Power Electronics Design course taught by Prof. <a
 								href="https://www2.eecs.berkeley.edu/Faculty/Homepages/boles.html">Jessica Boles</a>,
 							EECS, UC Berkeley </li>
-						<li> Combined single-ended (Gain=Cap. Ratio) and classic-3 OPA to solve EOV problem from
-							electrodes, add DRL for CMFB. </li>
-						<li> I design all the blocks, including 20/80dB OTA as ideal OP, pseudo-resistor for low noise,
-							and isolation OP to stabilize Vicm. </li>
-						<li> Achieved only 2.82 μVRMS input-refereed noise, 113 dB CMRR at 60 Hz with only 1.38 μW, 5%
-							resilience to mismatch. </li>
+						<li> Designed and laid out a synchronous buck converter in Altium Designer for photovoltaic
+							maximum power point tracking (MPPT) applications. </li>
+						<li> Built and validated a loss model including switching, conduction, winding, and core losses.
+						</li>
+						<li> Sized components for ripple specs and hand-wound a custom inductor. </li>
+						<li> Assembled, debugged, and tested hardware across operating conditions. </li>
+						<li> Implemented a closed-loop MPPT algorithm (Perturb and Observe) using a TI C2000
+							microcontroller. </li>
 					</p>
+				</div>
+				<div
+					style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
+
+					<!-- 左侧：Razavi -->
+					<div style="max-width: 400px; text-align: center;">
+						<img src="project_pic/board.heic" alt="PCB" style="width: 100%; height: auto;">
+						<p style="margin-top: 10px;">
+							Custom designed PCB.
+						</p>
+					</div>
+
+					<!-- 右侧：Osama -->
+					<div style="max-width: 400px; text-align: center;">
+						<img src="img/Osama.jpg" alt="With Prof. Osama and friends" style="width: 100%; height: auto;">
+						<p style="margin-top: 10px;">
+							With my friends Victor Zhang, Yuntian Zhang, and Prof. <a
+								href="https://www2.eecs.berkeley.edu/Faculty/Homepages/osama.html">Osama Shana'a</a> at
+							UC Berkeley.
+						</p>
+					</div>
+
 				</div>
 				<div class="flex-item flex-column">
 					<h2 class="add-top-margin">Low-Power, High-Slew OP Amplifier Design for LCD Display [<a
